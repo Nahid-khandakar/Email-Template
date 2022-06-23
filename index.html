@@ -84,14 +84,15 @@
             display: inline-block;
         }
 
-        .two-button {
+        .two-btn {
             text-align: center;
         }
 
-        .two-button .button {
+        .two-btn .btn {
             width: 100%;
-            max-width: 300px;
+            max-width: 150px;
             display: inline-block;
+            margin: 0 10px;
         }
 
         .three-columns {
@@ -108,11 +109,43 @@
         }
 
         .three-columns .padding {
-            padding: 25px;
+            padding: 5px 30px;
         }
 
         .three-columns .content {
-            font-size: 12px;
+            font-size: 10px;
+        }
+
+        .three-btn {
+            text-align: center
+        }
+
+        .three-btn .btn {
+            width: 100%;
+            max-width: 100px;
+            display: inline-block;
+            margin: 0 30px;
+        }
+
+
+
+        .two-columns .column {
+            width: 100%;
+            max-width: 280px;
+            display: inline-block;
+        }
+
+        .two-columns .laptop {
+            padding: 35px 0;
+        }
+
+        .two-columns .padding {
+            padding: 10px 0 10px 20px;
+        }
+
+        .two-columns .content {
+            padding: 20px 0 20px 35px;
+            text-align: center;
         }
     </style>
 
@@ -302,7 +335,8 @@
                     <table width="100%">
                         <tr>
                             <td style="text-align: center; padding: 15px 5px;">
-                                It's the right time for a tech refresh
+                                <h5>It's the right time for a tech refresh</h5>
+
                             </td>
                         </tr>
                     </table>
@@ -314,9 +348,9 @@
                 <td>
                     <table width="100%">
                         <tr>
-                            <td class="two-button">
+                            <td class="two-btn">
 
-                                <table width="100%" class="button-1">
+                                <table class="btn">
                                     <tr>
                                         <td>
                                             <button
@@ -328,7 +362,7 @@
                                 </table>
 
 
-                                <table width="100%" class="button-2">
+                                <table class="btn">
                                     <tr>
                                         <td>
                                             <button
@@ -346,7 +380,139 @@
 
 
 
-            <!-- BORDER -->
+            <!-- TWO COLUMN -->
+
+            <!-- LAPTOP SECTION -->
+            <tr>
+                <td>
+                    <table width="100%">
+
+                        <tr>
+                            <td class="two-columns laptop ">
+
+                                <table class="column">
+                                    <tr>
+                                        <td class="padding">
+                                            <table class="content">
+                                                <tr>
+                                                    <td>
+                                                        <a href="#"><img src="images/laptop-1.png" alt="laptop-1"
+                                                                width="110"></a>
+                                                        <a href="#"><img src="images/laptop-2.png" alt="laptop-2"
+                                                                width="110"></a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+
+                                <table class="column">
+                                    <tr>
+                                        <td class="padding">
+                                            <table class="content">
+                                                <tr>
+                                                    <td>
+                                                        <h3>LAPTOP DEALS</h3>
+                                                        <P>Save up to $100 on <br> Laptop and 2 in-in-1s </P>
+                                                        <button
+                                                            style="padding:10px; background-color:#FFFFFF;font-weight: 600;">
+                                                            Shop now
+                                                        </button>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+
+                                </table>
+
+                            </td>
+                        </tr>
+
+                    </table>
+                </td>
+            </tr>
+
+            <!-- MONITOR SECTION -->
+            <tr>
+                <td>
+                    <table width="100%">
+
+                        <tr>
+                            <td class="two-columns laptop ">
+
+
+                                <table class="column">
+                                    <tr>
+                                        <td class="padding">
+                                            <table class="content">
+                                                <tr>
+                                                    <td>
+                                                        <h3>DESKTOP DEALS</h3>
+                                                        <P>Save up to $200 on <br>Desktop</P>
+                                                        <button
+                                                            style="padding:10px; background-color:#FFFFFF;font-weight: 600;">
+                                                            Shop now
+                                                        </button>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+
+                                </table>
+
+                                <table class="column">
+                                    <tr>
+                                        <td class="padding">
+                                            <table class="content">
+                                                <tr>
+                                                    <td>
+                                                        <a href="#"><img src="images/desktop-1.png" alt="desktop-1"
+                                                                width="90"></a>
+                                                        <a href="#"><img src="images/desktop-2.png" alt="desktop-2"
+                                                                width="90"></a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+
+
+                            </td>
+                        </tr>
+
+                    </table>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td>
+                    <table width="95%">
+
+                        <tr>
+                            <td>
+                                <table>
+                                    <tr>
+                                        <td style="background-color:blue ;">
+                                            hello
+                                        </td>
+                                        <td style="background-color:gray ;">
+                                            hello
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+
+
+
+                    </table>
+                </td>
+            </tr>
 
             <!-- THREE COLUMN SECTION -->
             <tr>
@@ -457,15 +623,61 @@
                 </td>
             </tr>
 
-            <!-- BORDER -->
+            <!-- THREE BUTTONS -->
+            <tr>
+                <td>
+                    <table width="100%">
 
-            <!-- TWO COLUMN SECTION -->
+                        <tr>
+                            <td class="three-btn">
+                                <table class="btn">
+                                    <tr>
+                                        <td>
+                                            <button style="width:120px; background-color:#FFFFFF; padding: 8px;">
+                                                Laptops
+                                            </button>
+                                        </td>
+                                    </tr>
+                                </table>
+
+                                <table class="btn">
+                                    <tr>
+                                        <td>
+                                            <button style="width:120px; background-color:#FFFFFF; padding: 8px;">
+                                                View Details
+                                            </button>
+                                        </td>
+                                    </tr>
+                                </table>
+
+                                <table class="btn">
+                                    <tr>
+                                        <td>
+                                            <button style="width:120px; background-color:#FFFFFF; padding: 8px;">
+                                                Desktops
+                                            </button>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+
+
+
+                    </table>
+                </td>
+            </tr>
+
+
+
+
 
             <!-- FOOTER SECTION -->
 
 
-        </table> <!-- End Main Class -->
-    </div>
+
+
+        </table>
 
 </body>
 
