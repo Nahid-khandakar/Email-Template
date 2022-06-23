@@ -137,6 +137,112 @@
             padding: 20px 0 20px 35px;
             text-align: center;
         }
+
+
+        /* MEDIA QUERY FOR RESPONSIVE */
+        @media only screen and (max-width: 768px) {
+
+            /* mobile */
+            .sm {
+                display: none;
+            }
+
+            .sp {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            .sptd {
+                padding-left: 26px;
+            }
+
+            .sp1 {
+                position: absolute;
+                top: 697px;
+                right: 74px;
+                left: 60px;
+            }
+
+            .sp2 {
+                position: absolute;
+                top: 638px;
+                left: 274px;
+            }
+
+            .wrapper {
+                background-color: white;
+            }
+
+            td.text {
+                padding-top: 143px;
+            }
+
+            .spb1 {
+
+                width: 480px !important;
+                background-color: #ffffff;
+                font-weight: 700;
+                margin-bottom: 20px;
+                font-size: 20px;
+            }
+
+            .spb2 {
+
+                width: 480px !important;
+                background-color: #ffffff;
+                font-weight: 700;
+                margin-bottom: 20px;
+                font-size: 20px;
+            }
+
+            .sp-win11 {
+                padding: 5px 187px;
+                padding-bottom: 0;
+                padding-top: 9px;
+                margin-bottom: 0;
+                text-align: center;
+            }
+
+            .sp-wintext {
+                padding: 0 130px;
+                font-weight: normal;
+                text-align: center;
+                font-size: 22px;
+            }
+
+            td.two-columns.laptop.la-deals {
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+            }
+
+            .mo-deals {
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+            }
+
+            .sptext {
+                padding-top: 80px;
+                font-size: 18px
+            }
+
+            td.two-btn.spec-btn {
+                display: flex;
+                flex-direction: column;
+
+
+            }
+        }
+
+        @media only screen and (min-width: 768px) {
+
+            /* desktop */
+            .lg {
+                display: none;
+            }
+        }
     </style>
 
 </head>
@@ -167,15 +273,31 @@
 
                                         </td>
 
-                                        <td style="font-size:12px; padding:5px 8px 0 0 ;">
+
+                                        <td class="sptd lg">
+                                            <img src="images/laptop-icon.png" alt="" />
+                                            <span class="sp">SHOP</span>
+                                        </td>
+
+                                        <td class="sptd lg">
+                                            <img src="images/phone-icon.png" alt="" />
+                                            <span class="sp">PHONE</span>
+                                        </td>
+
+                                        <td class="sptd lg">
+                                            <img src="images/chat-icon.png" alt="" />
+                                            <span class="sp">LIVE CHAT</span>
+                                        </td>
+
+                                        <td class="sm" style="font-size:12px; padding:5px 8px 0 0 ;">
                                             VIEW PRODUCT
                                         </td>
 
-                                        <td style="font-size:12px; padding:5px 8px 0 0 ;">
+                                        <td class="sm" style="font-size:12px; padding:5px 8px 0 0 ;">
                                             CALL NOW
                                         </td>
 
-                                        <td style="font-size:12px; padding:5px 0 0 0 ;">
+                                        <td class="sm" style="font-size:12px; padding:5px 0 0 0 ;">
                                             LIVE CHAT
                                         </td>
                                     </tr>
@@ -183,9 +305,9 @@
                                 </table>
 
                                 <!-- WINDOWS LOGO -->
-                                <table class="column-2">
+                                <table class="column-2 sm">
                                     <tr>
-                                        <td style="padding-left:28px ;">
+                                        <td class="sm" style="padding-left:28px ;">
                                             <a href="#"><img src="images/windows-11.png" alt="windows-11"
                                                     style="width:80px ;"></a>
 
@@ -194,7 +316,7 @@
                                     </tr>
 
                                     <tr>
-                                        <td>
+                                        <td class="sm">
                                             <p>Windows 11 brings you <br> close to what you love</p>
                                         </td>
                                     </tr>
@@ -210,7 +332,7 @@
 
 
             <!-- VIEW IN BROWSER MINI TAG -->
-            <tr>
+            <tr class="sm">
                 <td style="font-size:10px; color:#0076ce; text-align: right; padding:0 40px 10px 0; font-weight: 600;">
                     view in browser
                 </td>
@@ -218,7 +340,7 @@
 
 
             <!-- FREE SHIPPING -->
-            <tr>
+            <tr class="sm">
                 <td style="padding:0 0 20px 0 ;">
                     <table style="margin: 0 auto ;" width="95%">
                         <tr>
@@ -287,7 +409,7 @@
                                 <table class="sub-image-1" width="100%">
 
                                     <tr>
-                                        <td>
+                                        <td class="sp1">
                                             <a href="#"><img src="images/xps-laptop.png" alt="xps-laptop"
                                                     width="200"></a>
                                             <a href="#"><img src="images/xps-name.png" alt="laptop-name"
@@ -299,7 +421,7 @@
 
                                 <table class="sub-image-2" width="100%">
                                     <tr>
-                                        <td>
+                                        <td class="sp2">
                                             <a href="#"><img src="images/monitor.png" alt="monitor" width="190"></a>
                                             <a href="#"><img src="images/monitor-name.png" alt="monitor-name"
                                                     width="180"></a>
@@ -314,11 +436,9 @@
             </tr>
 
 
-
-
             <!--TEXT & BUTTON -->
             <tr>
-                <td>
+                <td class="sptext">
                     <table width="100%">
                         <tr>
                             <td style="text-align: center; padding: 15px 5px;">
@@ -332,15 +452,15 @@
 
 
             <tr>
-                <td>
+                <td class="sp-btn">
                     <table width="100%">
                         <tr>
-                            <td class="two-btn">
+                            <td class="two-btn spec-btn">
 
                                 <table class="btn">
                                     <tr>
                                         <td>
-                                            <button
+                                            <button class="spb1"
                                                 style="width: 150px; padding:10px ; background-color: #FFFFFF;  font-weight: 700;">
                                                 Shop PCs
                                             </button>
@@ -352,7 +472,7 @@
                                 <table class="btn">
                                     <tr>
                                         <td>
-                                            <button
+                                            <button class="spb2"
                                                 style="width: 150px; padding: 10px; background-color: #FFFFFF;  font-weight: 700;">
                                                 Shop Electronics
                                             </button>
@@ -365,7 +485,18 @@
                 </td>
             </tr>
 
+            <!-- WINDOWS 11 FOR MOBILE -->
 
+            <tr>
+                <td class="sp-win11 lg">
+                    <img src="images/windows-11.png" alt="" />
+                </td>
+            </tr>
+            <tr>
+                <td class="sp-wintext lg">
+                    <p>Windows 11 brings you closer to what you love</p>
+                </td>
+            </tr>
 
             <!-- TWO COLUMN -->
 
@@ -375,7 +506,7 @@
                     <table width="100%">
 
                         <tr>
-                            <td class="two-columns laptop ">
+                            <td class="two-columns laptop la-deals ">
 
                                 <table class="column">
                                     <tr>
@@ -427,7 +558,7 @@
                     <table width="100%">
 
                         <tr>
-                            <td class="two-columns laptop ">
+                            <td class="two-columns laptop mo-deals ">
 
 
                                 <table class="column">
@@ -617,7 +748,6 @@
                                                         <button
                                                             style="margin-top:10px; background-color: #FFFFFF;">Learn
                                                             More</button>
-
                                                     </td>
                                                 </tr>
                                             </table>
@@ -646,24 +776,18 @@
                                 </button>
 
                                 <button style="width:120px; background-color:#FFFFFF; padding: 8px;margin:0 20px ">
-                                    Laptops
+                                    View Details
                                 </button>
 
                                 <button style="width:120px; background-color:#FFFFFF; padding: 8px; margin:0 20px ">
-                                    Laptops
+                                    Desktop
                                 </button>
 
                             </td>
                         </tr>
-
-
-
                     </table>
                 </td>
             </tr>
-
-
-
 
 
             <!-- FOOTER SECTION -->
@@ -743,19 +867,12 @@
                             </td>
                         </tr>
 
-
-
                     </table>
                 </td>
             </tr>
 
-
-
-
         </table>
 
 </body>
-
-
 
 </html>
